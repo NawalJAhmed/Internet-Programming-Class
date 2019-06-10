@@ -1,0 +1,124 @@
+@media(min-width:468px){
+    .container-1{
+      display:flex;
+    }
+    
+  .leftSidebox-1{
+    flex:1;
+    order:1;
+  }
+  
+  .box-1{
+    flex:4;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 10px 10px 5px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    color:black;
+    background-color:white;
+  }
+  
+  .rightSidebox-1{
+    flex:1;
+    order:3;
+  }
+  
+  @media(min-width:468px){
+    .container-2{
+      display:flex;
+      max-height: 3x;
+    }  
+  
+  .leftSidebox-2{
+    flex:1;
+    order:1;
+  }
+  
+  .box-2{
+    flex:4;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0px 10px 0px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    background-color:#ccc;
+  }
+  
+  .rightSidebox-2{
+    flex:1;
+    order:3;
+  }
+  
+  
+  
+  
+  
+    @media(min-width:468px){
+    .container-3{
+      display:flex;
+    }  
+  
+  .leftSidebox-3{
+    flex:1;
+    order:1;
+  }
+  
+  .box-3{
+    flex:4;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0px 10px 10px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    background-color:#ccc;
+  }
+  
+  .rightSidebox-3{
+    flex:1;
+    order:3;
+  }
+  
+.buttonColorSwitcher{
+    font-size: 20px;
+  }
+  
+#buttonFA{
+  color:#80d6ff;
+}
+#buttonFB{
+  color:#c7a4ff;
+}
+#buttonFC{
+  color:#b2fab4;
+}
+#buttonFD{
+  color:#ffff81;
+}
+#buttonFE{
+  color:#ffa4a2;
+}
+#buttonBA{
+  color:#1976d2;
+}
+#buttonBB{
+  color:#512da8;
+}
+#buttonBC{
+  color:#388e3c;
+}
+#buttonBD{
+  color:#e65100;
+}
+#buttonBE{
+  color:#d32f2f;
+}

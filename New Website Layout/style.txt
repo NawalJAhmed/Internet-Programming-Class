@@ -1,0 +1,169 @@
+/*Change font and background color*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    /*Removes vertical scroll bar*/
+    overflow-x:hidden;
+}
+/*Top bar styles*/
+.topMenuBar{
+    background-color: #3b5998;
+    overflow:hidden;
+    height: 63px;
+}
+/*Style Top bar links*/
+.topMenuBar a{
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*Set only top padding for the unordered list*/
+.topMenuBar ul{
+    margin: 8px 0 0 0;
+    /*Remvoe bullet points*/
+    list-style: none;
+}
+/*Link hover*/
+.topMenuBar a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+#main{
+    padding-left: 55px;
+}
+
+
+
+
+
+
+
+@media(min-width:468px){
+    .container-1{
+      display:flex;
+    }
+    
+  .leftSidebox-1{
+    flex:1;
+    order:1;
+  }
+  
+  .box-1{
+    flex:2;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 10px 10px 5px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    color:black;
+    background-color:white;
+  }
+  
+  .rightSidebox-1{
+    flex:1;
+    order:3;
+  }
+  
+  @media(min-width:468px){
+    .container-2{
+      display:flex;
+      max-height: 3x;
+    }  
+  
+  .leftSidebox-2{
+    flex:1;
+    order:1;
+  }
+  
+  .box-2{
+    flex:2;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0px 10px 0px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    background-color:#ccc;
+  }
+  
+  .rightSidebox-2{
+    flex:1;
+    order:3;
+  }
+  
+  
+  
+  
+  
+    @media(min-width:468px){
+    .container-3{
+      display:flex;
+    }  
+  
+  .leftSidebox-3{
+    flex:1;
+    order:1;
+  }
+  
+  .box-3{
+    flex:2;
+    order:2;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0px 10px 10px 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    background-color:#ccc;
+  }
+  
+  .rightSidebox-3{
+    flex:1;
+    order:3;
+  }
+  
+.buttonColorSwitcher{
+    font-size: 20px;
+  }
+  
+#buttonFA{
+  color:#80d6ff;
+}
+#buttonFB{
+  color:#c7a4ff;
+}
+#buttonFC{
+  color:#b2fab4;
+}
+#buttonFD{
+  color:#ffff81;
+}
+#buttonFE{
+  color:#ffa4a2;
+}
+#buttonBA{
+  color:#1976d2;
+}
+#buttonBB{
+  color:#512da8;
+}
+#buttonBC{
+  color:#388e3c;
+}
+#buttonBD{
+  color:#e65100;
+}
+#buttonBE{
+  color:#d32f2f;
+}

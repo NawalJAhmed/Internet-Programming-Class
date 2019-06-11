@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Assignment 2</title>
     <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
     
 </head>
 <body>
@@ -21,14 +22,61 @@
             <li><a href="../assignments/assignment4.html">Assignment 4</a></li>
             <li><a href="../assignments/assignment5.html">Assignment 5</a></li>
             <li><a href="../assignments/assignment6.html">Assignment 6</a></li>
-
         </ul>
     </nav>
     
     <!--Main Area-->
-    <div id="main">
+    <div class="main">
         <h1>Assignment 2</h1>
     </div>
 
+    <div class="container-1">
+        <div class="leftSidebox-1">
+        </div>
+        <div class="box-1" id="box-1">
+          <h3>Sample Text</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        </div>
+        <div class="rightSidebox-1">
+        </div>
+      </div>
+
+      <div class="container-2">
+        <div class="leftSidebox-2">
+        </div>
+        <div class="box-2">
+          <p id=foregroundText>
+            <span style="color:black;font-weight:bold">Foreground</span>
+            <button class=buttonColorSwitcher type="button" onClick="fAfunction()" id=buttonFA>A</button>
+            <button class=buttonColorSwitcher type="button" onClick="fBfunction()" id=buttonFB>B</button> 
+            <button class=buttonColorSwitcher type="button" onClick="fCfunction()" id=buttonFC>C</button> 
+            <button class=buttonColorSwitcher type="button" onClick="fDfunction()" id=buttonFD>D</button>
+            <button class=buttonColorSwitcher type="button" onClick="fEfunction()" id=buttonFE>E</button> 
+          </p>
+        </div>
+        <div class="rightSidebox-2">
+        </div>
+      </div>  
+      
+      <div class="container-3">
+        <div class="leftSidebox-3">
+        </div>
+        <div class="box-3">
+          <p id=backgroundText>
+            <span style="color:black;font-weight:bold">Background</span>
+            <button class=buttonColorSwitcher type="button" onClick="bAfunction()" id=buttonBA>A</button>
+            <button class=buttonColorSwitcher type="button" onClick="bBfunction()" id=buttonBB>B</button> 
+            <button class=buttonColorSwitcher type="button" onClick="bCfunction()" id=buttonBC>C</button> 
+            <button class=buttonColorSwitcher type="button" onClick="bDfunction()" id=buttonBD>D</button>
+            <button class=buttonColorSwitcher type="button" onClick="bEfunction()" id=buttonBE>E</button> 
+          </p>
+        </div>
+        <div class="rightSidebox-3">
+        </div>
+      </div>
+
+      <footer>
+          <p class="author">Made by Nawal Ahmed <br> Internet Programming Summer Class 2019</p>
+      </footer>
 </body>
 </html>

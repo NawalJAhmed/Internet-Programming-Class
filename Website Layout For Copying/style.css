@@ -1,7 +1,7 @@
 /*General Website Layout*/
-
 /*Change font and background color*/
 body{
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     /*Removes vertical scroll bar*/
@@ -19,7 +19,7 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding:14px 16px;
+    padding:13px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -35,12 +35,65 @@ body{
     color: #000;
 }
 /*All text and objects below the top menu bar will match the indentation of the Home button*/
-#main{
+.main{
+    display: flex;
+    flex-direction: column;
     padding-left: 55px;
+    height: 100%;
+}
+/*Style the footer*/
+p.author{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  color: black;
+  line-height: 40px;
+  font-size: 0.7em;
+  line-height: 1.5em;
+  text-align: center;
 }
 
-/*Styling for Assignment 2 Flexboxes*/
+/*Assignment 1*/
+/*Homepage boxing*/
+@media(min-width:468px){
+  .plainBodyTextContainer{
+    display:flex;
+  }
+/*Empty space for the left side*/
+.plainleftSidebox{
+  flex:1;
+  order:1;
+}
+/*Center-top box for text display*/
+.plainBodyBox{
+  flex:2;
+  order:2;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  color:black;
+  background-color:#f4f4f4;
+}
+/*Empty space for the right side*/
+.plainrightSidebox{
+  flex:1;
+  order:3;
+}
+/*Image styling for Assignment 1*/
+/*Adjust profile picture to be uniform*/
+#profilePicture{
+  position: relative;
+  width:248px;
+  height:248px;
+  margin-left: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
+/*Assignment 2*/
+/*Styling for Assignment 2 Flexboxes*/
 /*Top row boxes for text display*/
 @media(min-width:468px){
     .container-1{
@@ -70,7 +123,6 @@ body{
     flex:1;
     order:3;
   }
-  
   /*2nd row boxes for the Foreground Buttons Container*/
   @media(min-width:468px){
     .container-2{
@@ -100,7 +152,6 @@ body{
     flex:1;
     order:3;
   }
-  
 /*3rd row boxes for the Background Buttons Container*/
     @media(min-width:468px){
     .container-3{
@@ -129,7 +180,6 @@ body{
     flex:1;
     order:3;
   }
-  
 /*Increase the text size of the Assignment 2 Buttons*/
 .buttonColorSwitcher{
     font-size: 20px;

@@ -54,10 +54,7 @@
   .rightSidebox-2{
     flex:1;
     order:3;
-  }
-  
-  
-  
+  }  
   
   
     @media(min-width:468px){
@@ -89,7 +86,7 @@
   }
   
 .buttonColorSwitcher{
-    font-size: xx-large;
+    font-size: 16px;
   }
   
 #buttonFA{

@@ -42,6 +42,17 @@ body{
     padding-left: 55px;
     padding-bottom: 2.5rem;
 }
+/*Style the footer for the Index page*/
+#footerIndex{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  line-height: 40px;
+  font-size: 0.7em;
+  line-height: 1.5em;
+  text-align: center;
+}
 /*Style the footer*/
 #footer{
   position: absolute;

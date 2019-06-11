@@ -1,5 +1,14 @@
-/*Foreground (Text) Button Functions*/
+/**
+ * Author: Nawal Ahmed
+ * Class: Internet Programming Summer 2019
+ */
 
+/**
+ * Assignment 2 Functions
+ */
+/*Foreground (Text) Button Functions*/
+/*The following functions are linked to different buttons
+  and change the respective text color of the display box (box-1)*/
 function fAfunction(){
   document.getElementById("box-1").style.color = "#80d6ff";
 }
@@ -21,7 +30,8 @@ function fEfunction(){
   }
 
 /*Background Button Functions*/
-
+/*The following functions are linked to different buttons
+  and change the respective background color of the display box (box-1)*/
 function bAfunction(){
   document.getElementById("box-1").style.backgroundColor = "#1976d2";
   }

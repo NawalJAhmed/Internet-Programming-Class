@@ -1,3 +1,6 @@
+/*Author: Nawal Ahmed
+  Class: Internet Programming Summer 2019*/
+
 /*General Website Layout*/
 /*Change font and background color*/
 body{
@@ -98,7 +101,6 @@ body{
   position: relative;
   width:248px;
   height:248px;
-  margin-left: 15%;
   margin-left: auto;
   margin-right: auto;
   display: block;

@@ -14,6 +14,7 @@
     <nav class="topMenuBar">
         <!--Create top menu bar links (Under the span)-->
         <!--../ Goes down a directory. You can chain them. ../../ for going down two directories-->
+        <!--Unordered list for navigation-->
         <ul class="topMenuBar-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../assignments/assignment1.html">Assignment 1</a></li>
@@ -29,24 +30,34 @@
     <div class="main">
         <h1>Assignment 2</h1>
     </div>
-
+    <!--Use 3 Containers
+    Container 1: Display box
+    Container 2: Foreground buttons box
+    Container 3: Background buttons box-->
     <div class="container-1">
+        <!--Empty left side box-->
         <div class="leftSidebox-1">
         </div>
+        <!--Center display box-->
         <div class="box-1" id="box-1">
           <h3>Sample Text</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
         </div>
+        <!--Empty right side box-->
         <div class="rightSidebox-1">
         </div>
       </div>
 
       <div class="container-2">
+        <!--Empty left side box-->
         <div class="leftSidebox-2">
         </div>
+        <!--Center foreground buttons box-->
         <div class="box-2">
           <p id=foregroundText>
+            <!--Foreground text-->
             <span style="color:black;font-weight:bold">Foreground</span>
+            <!--5 buttons for switching & functions that are in JavaScript-->
             <button class=buttonColorSwitcher type="button" onClick="fAfunction()" id=buttonFA>A</button>
             <button class=buttonColorSwitcher type="button" onClick="fBfunction()" id=buttonFB>B</button> 
             <button class=buttonColorSwitcher type="button" onClick="fCfunction()" id=buttonFC>C</button> 
@@ -54,16 +65,21 @@
             <button class=buttonColorSwitcher type="button" onClick="fEfunction()" id=buttonFE>E</button> 
           </p>
         </div>
+        <!--Empty right side box-->
         <div class="rightSidebox-2">
         </div>
       </div>  
       
       <div class="container-3">
+        <!--Empty left side box-->
         <div class="leftSidebox-3">
         </div>
+        <!--Center background buttons box-->
         <div class="box-3">
           <p id=backgroundText>
+            <!--Background text-->
             <span style="color:black;font-weight:bold">Background</span>
+            <!--5 buttons for switching & functions that are in Javascript-->
             <button class=buttonColorSwitcher type="button" onClick="bAfunction()" id=buttonBA>A</button>
             <button class=buttonColorSwitcher type="button" onClick="bBfunction()" id=buttonBB>B</button> 
             <button class=buttonColorSwitcher type="button" onClick="bCfunction()" id=buttonBC>C</button> 
@@ -71,10 +87,12 @@
             <button class=buttonColorSwitcher type="button" onClick="bEfunction()" id=buttonBE>E</button> 
           </p>
         </div>
+        <!--Empty right side box-->
         <div class="rightSidebox-3">
         </div>
       </div>
 
+      <!--Footer-->
       <footer id="footer">
           <p>Made by Nawal Ahmed <br> Internet Programming Summer Class 2019</p>
       </footer>

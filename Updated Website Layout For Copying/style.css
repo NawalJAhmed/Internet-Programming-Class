@@ -9,7 +9,7 @@ body{
 }
 /*Top bar styles*/
 .topMenuBar{
-    background-color: #3b5998;
+    background-color: #C62828;
     overflow:hidden;
     height: 63px;
 }
@@ -31,7 +31,7 @@ body{
 }
 /*Link hover*/
 .topMenuBar a:hover{
-    background-color: #ddd;
+    background-color: #f4f4f4;
     color: #000;
 }
 /*All text and objects below the top menu bar will match the indentation of the Home button*/

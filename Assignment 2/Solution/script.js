@@ -40,4 +40,4 @@ function bDfunction(){
 
 function bEfunction(){
   document.getElementById("box-1").style.backgroundColor = "#d32f2f";
-} 
+}

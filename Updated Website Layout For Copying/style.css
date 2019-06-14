@@ -87,7 +87,7 @@ body{
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
-  color:black;
+  color:#ffa4a2;
   background-color:#f4f4f4;
 }
 /*Empty space for the right side*/
@@ -129,8 +129,8 @@ body{
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
-    color:black;
-    background-color:white;
+    color:#80d6ff;
+    background-color:#d32f2f;
   }
   /*Empty space for the right side*/
   .rightSidebox-1{

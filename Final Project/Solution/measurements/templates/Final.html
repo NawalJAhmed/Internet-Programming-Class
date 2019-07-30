@@ -1,0 +1,31 @@
+{# Extend this html to the base.html #}
+{% extends 'base.html' %}
+
+
+{# Render this html to block content in base.html #}
+{% block content %}
+    <h1>List of Areas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Number of locations</th>
+                <th>Average Measurement</th>
+                <th>Categories</th>
+            </tr>
+        </thead>
+        <tbody>
+            {# Loop through the area #}
+            {% for area in areas %}
+            <tr>
+                <td>{{ area.id }}</td>
+                <td>{{ area.name }}</td>
+                <td>{{ area.number_of_locations }}</td>
+                <td>{% if area.average_measurement %}{{ area.average_measurement|floatformat:3 }}{% else %}------{% endif %}</td>
+                <td>{{ area.category_name }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
